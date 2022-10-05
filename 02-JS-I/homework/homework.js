@@ -62,7 +62,7 @@ function sonIguales(x, y) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (x === y) return true
-  return false;
+  return false
   }
 
 
@@ -119,7 +119,6 @@ function elevarAlCuadrado(num) {
   // ojo: No es raiz cuadrada!
   // Tu código:
   return num ** 2; 
-
 }
 
 function elevarAlCubo(num) {
@@ -133,7 +132,6 @@ function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
   return Math.pow(num, exponent);
-
 }
 
 function redondearNumero(num) {
@@ -162,9 +160,10 @@ function esPositivo(numero) {
   
   if (numero > 0) return "Es positivo";
   else if (numero < 0) return "Es negativo";
-  else
-  return false;
+  else return false;
 }
+
+
 
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
@@ -232,7 +231,7 @@ function esVocal(letra){
   if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u") return "Es vocal";
   else if (letra != 1) return "Dato incorrecto";
   else return "Dato incorrecto";
-  
+
 }
 
 // No modificar nada debajo de esta línea
